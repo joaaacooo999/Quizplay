@@ -1,16 +1,30 @@
-# React + Vite
+# QuizPlay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto académico de una plataforma de cuestionarios con los modos Music Quiz, Geo Quiz y Trivia.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js y npm
+- Git
 
-## React Compiler
+## Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Cloná el repositorio y entrá a la carpeta del proyecto:
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/joaaacooo999/Quizplay.git
+cd Quizplay
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Ejecución local
+
+Iniciá el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Abrí en el navegador la dirección que muestre la terminal, normalmente `http://localhost:5173/`.
+
+Para detener el servidor, presioná `Ctrl + C` en la terminal.
