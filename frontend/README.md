@@ -9,20 +9,25 @@ Proyecto académico de una plataforma de cuestionarios con los modos Music Quiz,
 
 ## Instalación
 
-Cloná el repositorio y entrá a la carpeta del proyecto:
+Cloná el repositorio y entrá a la carpeta del frontend:
 
-```bash
+```powershell
 git clone https://github.com/joaaacooo999/Quizplay.git
-cd Quizplay
-npm install
+cd Quizplay\frontend
+```
+
+Instalá las dependencias:
+
+```powershell
+npm.cmd install
 ```
 
 ## Ejecución local
 
 Iniciá el servidor de desarrollo:
 
-```bash
-npm run dev
+```powershell
+npm.cmd run dev
 ```
 
 Abrí en el navegador la dirección que muestre la terminal, normalmente `http://localhost:5173/`.
